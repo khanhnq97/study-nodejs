@@ -1,15 +1,22 @@
 {
   "name": "study-nodejs",
+  "type": "module",
   "version": "1.0.0",
   "description": "study nodejs",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
   "author": "khanhnq",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "express-validator": "^7.2.0"
   }
 }
