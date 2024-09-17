@@ -1,9 +1,5 @@
-const getAllStudents = async ({
-    page,
-    size,
-    searchString
-}) => {
-    console.log('get all students with: ', page, size, searchString);
+const getAllStudents = async () => {
+    console.log('get all students with: ');
 }
 
 const insertStudents = async ({
